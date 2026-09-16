@@ -1,5 +1,8 @@
 # DeepMind Weather Hierarchy POC Architecture
 
+<img width="1408" height="768" alt="weather_pred_architecture" src="https://github.com/user-attachments/assets/09e8fb3c-b726-4d8e-974f-02b2c124b4aa" />
+
+
 This project provides a memory-efficient Proof of Concept (POC) demonstrating the **Hierarchical Multi-Mesh Graph Neural Network Architecture** utilized by advanced weather prediction systems like Google DeepMind's GraphCast.
 
 The framework completely decouples localized 2D coordinate matrices from global spherical atmospheric processing, removing spatial distortions near the poles while maintaining a low-compute, CPU-friendly footprint.
